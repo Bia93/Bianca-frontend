@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pizza order</title>
+  </head>
+
+  <body>
+    <form action="https://www.google.com/" method="get">
+      <fieldset>
+        <legend>Pizza order</legend>
+        <div>
+          <label for="yname">Your name</label>
+          <input
+            type="text"
+            id="yname"
+            name="yname"
+            placeholder="Your name"
+            required
+            minlength="3"
+            maxlength="10"
+          />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="email"> Your email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email"
+          />
+        </div>
+        <br />
+        <div>
+          <input type="reset" />
+        </div>
+        <br />
+        <div>
+          <label for="title">Topping:</label>
+
+          <input type="radio" id="Supreme" name="Supreme" value="Supreme" />
+          <label for="Supreme">Supreme</label>
+
+          <input
+            type="radio"
+            id="Vegetarian"
+            name="Vegetarian"
+            value="Vegetarian"
+          />
+          <label for="Vegetarian">Vegetarian</label>
+
+          <input type="radio" id="Hawaian" name="Hawaian" value="Hawaian" />
+          <label for="Hawaian"> Hawaian </label>
+        </div>
+        <br />
+        <div>
+          <label for="sauce">Sauce:</label>
+          <select id="sauce" name="sauce">
+            <option value="Tomato">Tomato</option>
+            <option value="Hot sauce">Hot sauce</option>
+            <option value="BBQ">BBQ</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="Extras">Extras:</label>
+
+          <input type="checkbox" id="Cheese" name="Cheese" />
+          <label for="Cheese"> Cheese</label>
+
+          <input type="checkbox" id="Onions" name="Onions" />
+          <label for="Onions">Onions</label>
+
+          <input type="checkbox" id="Olives" name="Olives" />
+          <label for="Olives">Olives</label>
+        </div>
+        <br />
+        <div>
+          <label for="Quantity">Quantity</label>
+          <input type="number" id="Quantity" name="Quantity" min="1" max="7" />
+        </div>
+        <br />
+        <div>
+          <label for="ddate">Delivery date:</label>
+          <input type="date" id="ddate" name="ddate" />
+        </div>
+        <br />
+        <div>
+          <label for="delivery">Delivery instructions:</label>
+          <br />
+          <textarea
+            id="delivery"
+            name="delivery"
+            rows="9"
+            cols="40"
+            placeholder="instructions"
+          >
+          </textarea>
+        </div>
+
+        <input type="submit" value="Send order" />
+      </fieldset>
+    </form>
+  </body>
+</html>
