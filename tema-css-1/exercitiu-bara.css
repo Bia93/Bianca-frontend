@@ -1,0 +1,38 @@
+/* ::grammar-error {
+  display: flex;
+  align-items: center;
+  border: 30px solid yellow;
+} */
+
+/*.fluture {
+  display: flex;
+  align-items: center;
+  border: 30px solid yellow;
+  background-color: white;
+  content: yellow;
+  width: 50%;
+  font-weight: bold;
+}
+*/
+
+/*{
+  background-color: yellow;
+  width: 300px;
+  border: 15px solid yellow;
+  padding: 50px;
+  margin: 20px;
+      <link href="exercitiu-bara.css" rel="stylesheet" />
+} */
+.fluture {
+  display: flex;
+  align-items: center;
+  border: 30px solid yellow;
+  background-color: yellow;
+  content: yellow;
+  width: 40%;
+}
+.margin {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin: auto;
+}

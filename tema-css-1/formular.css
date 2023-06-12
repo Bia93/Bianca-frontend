@@ -1,0 +1,18 @@
+fieldset {
+  background: salmon;
+}
+
+label {
+  color: skyblue;
+}
+.h {
+  background-color: green;
+  border: green;
+}
+[type="text"] {
+  border: 3px solid green;
+}
+
+[type="email"] {
+  background: blue;
+}
