@@ -1,0 +1,108 @@
+.container {
+  max-width: 400px;
+
+  border: 1px solid grey;
+  background: lightgrey;
+}
+.calculator {
+  display: grid;
+  grid-template-columns: 1fr 40px 40px 40px;
+
+  padding: 10px;
+}
+.scientific {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  position: relative;
+  align-items: baseline;
+}
+.position {
+  position: absolute;
+  left: 50px;
+  font-size: 18px;
+}
+.clock {
+  background: transparent;
+  border-width: 0;
+  font-size: 18px;
+}
+a#totalhamburger {
+  display: inline-block;
+}
+a#totalhamburger .hamburger {
+  margin: 2px;
+  width: 23px;
+  height: 3px;
+  background: #000;
+  border-radius: 1.5px;
+}
+
+.output {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  display: grid;
+  align-items: center;
+  justify-content: end;
+  padding: 10px;
+  font-size: 30px;
+}
+.child1 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 43px;
+  margin-bottom: 15px;
+}
+.child2 {
+  display: flex;
+  justify-content: space-between;
+}
+.triangle {
+  font-size: 20px;
+  background: transparent;
+  border-width: 0;
+}
+.trigonometry1,
+.symbol,
+.function1 {
+  font-size: 15px;
+}
+.arrow {
+  font-size: 20px;
+  color: grey;
+}
+.trigonometry {
+  background: transparent;
+  border-width: 0;
+}
+
+.function {
+  background: transparent;
+  border-width: 0;
+}
+.buttons {
+  margin-top: 15px;
+}
+.sup {
+  position: relative;
+  bottom: 1ex;
+  font-size: 80%;
+}
+.calcul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 50px;
+  max-width: 400px;
+}
+.mc,
+.mr,
+.mtm {
+  color: grey;
+}
+.child-black {
+  font-size: 18px;
+  font-weight: bold;
+}
+.child-equal {
+  background-color: blue;
+}
