@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  gap: 10px;
+  font-family: sans-serif;
+}
+body p {
+  margin-left: 10px;
+}
+body h2,
+h3 {
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+.section-left {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.multi-squares {
+  display: flex;
+  gap: 10px;
+}
+.turcoaz-yellow {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.turcoaz {
+  height: 100px;
+  width: 150px;
+  background-color: turquoise;
+  color: white;
+  border-radius: 3px;
+}
+.yellow1 {
+  height: 100px;
+  width: 150px;
+  background-color: yellow;
+}
+.blue-square {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  height: 208px;
+  width: 250px;
+  position: relative;
+}
+.red-square {
+  display: flex;
+  flex-direction: row;
+
+  background-color: red;
+  height: 300px;
+  width: 410px;
+}
+
+.section-right {
+  display: flex;
+  background-color: green;
+  height: 520px;
+  width: 300px;
+  font-size: 10px;
+}
+.clock {
+  position: absolute;
+  left: 70px;
+  top: 70px;
+}
