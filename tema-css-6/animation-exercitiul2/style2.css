@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 350px;
+  width: 450px;
+  background-color: lightskyblue;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  margin-bottom: 20px;
+  color: aliceblue;
+  position: relative;
+  animation-name: titlu;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+p {
+  margin: 5px 28px;
+  color: aliceblue;
+  position: relative;
+  animation-name: paragraf;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.learn-more {
+  margin-top: 35px;
+  opacity: 0;
+  animation: learn ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+button {
+  padding: 10px 10px;
+  border: 1px solid white;
+  background-color: lightblue;
+  background: transparent;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+@keyframes titlu {
+  0% {
+    top: -50px;
+  }
+  100% {
+    top: 10px;
+  }
+}
+@keyframes paragraf {
+  0% {
+    left: -50px;
+  }
+  100% {
+    left: 10px;
+  }
+}
+@keyframes learn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
