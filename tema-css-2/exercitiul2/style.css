@@ -1,0 +1,50 @@
+.parent {
+  border: 5px dotted #bf8b8b;
+
+  position: relative;
+
+  width: 555px;
+  height: 200px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #d8e4bc;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.childchild {
+  position: absolute;
+  border: 3px dotted#BF8B8B;
+  background-color: #2e8b57;
+  width: 200px;
+  height: 150px;
+  font-size: 15px;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+.childchild2 {
+  position: absolute;
+  background-color: #dda0dd;
+  font-size: 15px;
+  border: 3px dotted #ba55d3;
+  width: 250px;
+  height: 130px;
+  border-radius: 10px;
+  left: 130px;
+  top: 68px;
+  margin: auto;
+  z-index: 1;
+}
+.childchild3 {
+  position: absolute;
+  font-size: 15px;
+  border: 3px dotted #bf8b8b;
+  border-radius: 10px;
+  width: 200px;
+  height: 150px;
+  background-color: #cccc00;
+  right: 7px;
+  bottom: 10px;
+}

@@ -1,0 +1,36 @@
+.parinte {
+  width: 600px;
+  height: 550px;
+  border: solid 2px #d5cfce;
+  background-color: #d5cfce;
+  position: relative;
+}
+.copil1 {
+  border: solid 2px yellow;
+  background-color: yellow;
+  position: absolute;
+
+  width: 200px;
+  height: 200px;
+  left: 2px;
+  top: 4px;
+}
+.copil2 {
+  width: 200px;
+  height: 200px;
+  border: solid 2px blue;
+  background-color: blue;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.copil3 {
+  width: 200px;
+  height: 200px;
+  border: solid 2px green;
+  background-color: green;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
